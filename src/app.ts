@@ -11,7 +11,7 @@ app.use(express.json());
 
 // defines a dummy route
 app.get('/', (req: Request, res: Response) => {
-  res.send("Bonjour tout le monde");
+  res.send("Bonjour tout le monde au cours de DevOps");
 });
 
 // use the controller to use the route
